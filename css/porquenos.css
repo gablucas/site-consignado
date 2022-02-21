@@ -65,7 +65,7 @@
 }
 
 .item4 h3::before {
-    background: url("../imagens/iconequipepreparada.svg") no-repeat center;
+    /* background: url("../imagens/iconequipepreparada.svg") no-repeat center; */
 }
 
 .item-vantagens p {
