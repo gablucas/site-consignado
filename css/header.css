@@ -1,0 +1,24 @@
+.header {
+    background: #fff;
+}
+
+.header-container {
+    max-width: 1240px;
+    margin: 0px auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+}
+
+.menu a {
+    display: block;
+    padding: 10px 0px;
+    color: #003086;
+}

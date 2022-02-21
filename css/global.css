@@ -1,0 +1,26 @@
+body {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background: #f7f7f7;
+}
+
+h1, h2, h3, p {
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #003086;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}

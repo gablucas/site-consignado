@@ -1,0 +1,80 @@
+.contato {
+    background: #fff;
+}
+
+.contato-container {
+    max-width: 1240px;
+    margin: 0px auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 80px 40px 40px 40px;
+    row-gap: 80px;
+}
+
+.titulo-contato {
+    font-family: Merriweather, Georgia, 'Times New Roman', serif;
+    font-size: 70px;
+    line-height: 1;
+    font-weight: normal;
+    color: #003086;
+    padding-bottom: 60px;
+
+    position: relative;
+}
+
+.titulo-contato::after {
+    content: "";
+    width: 50px;
+    height: 10px;
+    background: #d9bf87;
+
+    display: block;
+    position: absolute;
+}
+
+.lista-contatos {
+    display: grid;
+    gap: 50px;
+}
+
+.lista-contatos h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: #003086;
+}
+
+.lista-contatos address {
+    font-size: 24px;
+    line-height: 1.2;
+    color: #0E3F98;
+}
+
+.lista-contatos .whatsapp {
+    position: relative;
+}
+
+.lista-contatos .whatsapp::after {
+    content: "";
+    width: 25px;
+    height: 25px;
+    background: url("../imagens/iconwhatsapp.svg") no-repeat center;
+
+    display: inline-block;
+    position: absolute;
+    right: -30px;
+}
+
+.mapa-contato {
+    justify-self: end;
+}
+
+.direitos-contato {
+    grid-column: 1 / -1;
+    justify-self: center;
+
+    color: #003086;
+}
+
