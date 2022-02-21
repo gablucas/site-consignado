@@ -48,7 +48,7 @@
 .item-vantagens h3::before {
     content: "";
     width: 50px;
-    height: 40px;
+    height: 45px;
     display: block;
 }
 
@@ -61,7 +61,11 @@
 }
 
 .item3 h3::before {
-    background: url("../imagens/iconatendimentoexterno.svg") no-repeat   center;
+    background: url("../imagens/iconatendimentoexterno.svg") no-repeat center;
+}
+
+.item4 h3::before {
+    background: url("../imagens/iconequipepreparada.svg") no-repeat center;
 }
 
 .item-vantagens p {
