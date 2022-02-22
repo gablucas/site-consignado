@@ -57,3 +57,19 @@
         padding-top: 60px;
     }
 }
+
+@media (max-width: 425px) {
+
+    .introducao {
+        grid-template-columns: 1fr;
+        padding: 40px 20px 180px 20px;
+    }
+
+    .texto-introducao {
+        padding-top: 0px;
+    }
+
+    .img-introducao {
+        display: none;
+    }
+}
