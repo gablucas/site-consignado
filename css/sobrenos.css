@@ -9,7 +9,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 100px 40px 80px 40px;
-    align-items: start;
+    align-items: center;
+    gap: 20px;
 }
 
 .titulo-sobrenos {
