@@ -47,3 +47,26 @@
     left: -22px; 
     top: 8px;
 }
+
+@media (max-width: 1024px) {
+
+    .sobrenos-container {
+        padding: 80px 20px 60px 20px;
+    }
+
+    .titulo-sobrenos {
+        font-size: 60px;
+        padding-bottom: 30px;
+    }
+
+    .lista-sobrenos {
+        font-size: 20px;
+    }
+
+    .lista-sobrenos li::before {
+        position: initial;
+        display: inline-block;
+        margin-right: 5px;
+    }
+
+}

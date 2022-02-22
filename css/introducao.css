@@ -32,3 +32,15 @@
 .img-introducao {
     justify-self: end;
 }
+
+@media (max-width: 1024px) {
+
+    .introducao {
+        padding: 0px 20px 60px 20px;
+        gap: 20px;
+    }
+
+    .texto-introducao {
+        font-size: 35px;
+    }
+}

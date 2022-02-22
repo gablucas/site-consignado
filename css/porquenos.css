@@ -72,3 +72,14 @@
 .item-vantagens p {
     color: #0E3F98;
 }
+
+@media (max-width: 1024px) {
+
+    .porquenos {
+        padding: 60px 20px 120px 20px;
+    }
+
+    .titulo-porquenos {
+        font-size: 60px;
+    }
+}

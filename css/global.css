@@ -25,15 +25,13 @@ img{
     display: block;
 }
 
-.youtube,
-.mapa {
+.youtube {
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
 }
 
-.youtube iframe,
-.mapa iframe {
+.youtube iframe {
     position: absolute;
     top: 0;
     left: 0;

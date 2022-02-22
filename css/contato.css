@@ -78,3 +78,30 @@
     color: #003086;
 }
 
+@media (max-width: 1024px) {
+
+    .contato-container {
+        row-gap: 60px;
+        padding: 60px 20px 20px 20px;
+    }
+
+    .titulo-contato {
+        font-size: 60px;
+        padding-bottom: 40px;
+    }
+
+    .titulo-contato::after {
+        width: 40px;
+        height: 8px;
+    }
+
+    .lista-contatos h3 {
+        font-size: 18px;
+    }
+
+    .lista-contatos address {
+        font-size: 22px;
+        line-height: 1.3;
+    }
+}
+
