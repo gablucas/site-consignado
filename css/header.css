@@ -22,3 +22,44 @@
     padding: 10px 0px;
     color: #003086;
 }
+
+@media (max-width: 1024px) {
+
+    .header-container {
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .header-container {
+        padding: 5px 20px;
+    }
+    
+    .logoapoio {
+        width: 70px;
+    }
+
+    .menu {
+        gap: 40px;
+    }
+
+    .menu a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .logoapoio {
+        width: 50px;
+    }
+
+    .menu {
+        gap: 30px;
+    }
+
+    .menu a {
+        font-size: 12px;
+    }
+}
