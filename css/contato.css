@@ -105,3 +105,26 @@
     }
 }
 
+@media (max-width: 768px) {
+
+    .contato-container {
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .lista-contatos {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 100px;
+    }
+
+    .mapa-contato {
+        height: 300px;
+    }
+
+    .direitos-contato {
+        font-size: 14px;
+    }
+}
+

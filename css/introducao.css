@@ -42,5 +42,18 @@
 
     .texto-introducao {
         font-size: 35px;
+        padding-top: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .introducao {
+        padding: 0px 20px 40px 20px;
+    }
+
+    .texto-introducao {
+        font-size: 25px;
+        padding-top: 60px;
     }
 }
