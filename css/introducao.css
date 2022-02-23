@@ -3,8 +3,9 @@
     margin: 0px auto;
 
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto 1fr;
     padding: 0px 40px 100px 40px;
+    gap: 20px;
 }
 
 .texto-introducao {
@@ -37,12 +38,17 @@
 
     .introducao {
         padding: 0px 20px 60px 20px;
-        gap: 20px;
+        gap: 30px;
     }
 
     .texto-introducao {
-        font-size: 35px;
+        font-size: 38px;
         padding-top: 80px;
+    }
+
+    .texto-introducao::after { 
+        width: 80px;
+        height: 8px;
     }
 }
 
@@ -53,7 +59,7 @@
     }
 
     .texto-introducao {
-        font-size: 25px;
+        font-size: 30px;
         padding-top: 60px;
     }
 }
@@ -66,6 +72,7 @@
     }
 
     .texto-introducao {
+        font-size: 26px;
         padding-top: 0px;
     }
 
