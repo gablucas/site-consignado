@@ -13,7 +13,7 @@
     font-size: 45px;
     line-height: 1.2;
     font-weight: 300;
-    color: #003086;
+    color: var(--cor-fonte-titulo);
     padding-top: 100px;
 
     position: relative;
@@ -23,7 +23,7 @@
     content: "";
     width: 100px;
     height: 10px;
-    background: #D9BF87;
+    background: var(--cor-primaria-detalhe);
 
     display: block;
     position: absolute;

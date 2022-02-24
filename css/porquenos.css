@@ -16,7 +16,7 @@
 }
 
 .titulo-porquenos span {
-    color: #D9BF87;
+    color: var(--cor-primaria-detalhe);
 }
 
 .lista-vantagens {
@@ -28,9 +28,10 @@
 .item-vantagens {
     flex: 1;
     padding: 20px;
-    border: 1px solid #B7DCFF;
+    border: 1px solid var(--cor-terciaria-detalhe);
     border-radius: 4px;
-    background: #fff;
+    box-sizing: border-box;
+    background: var(--cor-secundaria-fundo);
 }
 
 .item-vantagens h3 {
@@ -38,7 +39,7 @@
     line-height: 1.2;
     text-transform: uppercase;
     padding-bottom: 20px;
-    color: #0E3F98;
+    color: var(--cor-fonte-titulo);
 
     display: grid;
     grid-template-columns: auto 1fr;
@@ -70,7 +71,7 @@
 }
 
 .item-vantagens p {
-    color: #0E3F98;
+    color: var(--cor-fonte-texto);
 }
 
 @media (max-width: 1024px) {
