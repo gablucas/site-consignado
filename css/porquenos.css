@@ -126,5 +126,11 @@
 
     .item-vantagens h3 {
         max-width: initial;
+        padding-bottom: 10px;
+        gap: 5px;
+    }
+
+    .item-vantagens h3::before {
+        transform: scale(.8);
     }
 }
