@@ -1,6 +1,7 @@
 .introducao {
     max-width: 1240px;
     margin: 0px auto;
+    box-sizing: border-box;
 
     display: grid;
     grid-template-columns: auto 1fr;

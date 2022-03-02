@@ -5,6 +5,7 @@
 .contato-container {
     max-width: 1240px;
     margin: 0px auto;
+    box-sizing: border-box;
 
     display: grid;
     grid-template-columns: 1fr 1fr;

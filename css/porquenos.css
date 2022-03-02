@@ -1,6 +1,7 @@
 .porquenos {
     max-width: 1240px;
     margin: 0px auto;
+    box-sizing: border-box;
 
     padding: 80px 40px 170px 40px;
 }
