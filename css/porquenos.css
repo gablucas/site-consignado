@@ -32,7 +32,12 @@
     border: 1px solid var(--cor-terciaria-detalhe);
     border-radius: 4px;
     box-sizing: border-box;
-    background: var(--cor-secundaria-fundo);
+    background-color: var(--cor-secundaria-fundo);
+}
+
+.item-vantagens:hover {
+    box-shadow: 0px 0px 7px var(--cor-terciaria-detalhe);
+    transition: .3s;
 }
 
 .item-vantagens h3 {

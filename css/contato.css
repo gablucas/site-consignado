@@ -58,22 +58,11 @@
 }
 
 .lista-contatos a:hover {
-    text-decoration: underline;
+    color: var(--cor-secundaria-detalhe);
 }
 
-.lista-contatos .whatsapp {
-    position: relative;
-}
-
-.lista-contatos .whatsapp::after {
-    content: "";
-    width: 25px;
-    height: 25px;
-    background: url("../imagens/iconwhatsapp.svg") no-repeat center;
-
+.lista-contatos img {
     display: inline-block;
-    position: absolute;
-    right: -35px;
 }
 
 .mapa-contato {

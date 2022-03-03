@@ -39,6 +39,10 @@
     position: relative;
 }
 
+.lista-sobrenos li:hover {
+    color: var(--cor-secundaria-detalhe);
+}
+
 .lista-sobrenos li:before {
     content: "";
     width: 8px;
