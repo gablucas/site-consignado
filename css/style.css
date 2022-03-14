@@ -1,6 +1,16 @@
-@import "./global.css";
-@import "./header.css";
-@import "./introducao.css";
-@import "./sobrenos.css";
-@import "./porquenos.css";
-@import "./contato.css";
+/*Global*/
+@import "./global/global.css";
+
+/*Utilidades*/
+@import "./utilidades/componentes.css";
+@import "./utilidades/cores.css";
+@import "./utilidades/tipografia.css";
+
+/*Header e Footer*/
+@import "./global/header.css";
+@import "./global/footer.css";
+
+/*Home*/
+@import "./home/introducao.css";
+@import "./home/sobrenos.css";
+@import "./home/porquenos.css";

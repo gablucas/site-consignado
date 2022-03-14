@@ -8,20 +8,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
     <title>Apoio Solução</title>
 </head>
 <body>
 
 <!-- Cabeçalho do site -->
 
-    <header class="header">
+    <header class="header-bg">
 
-        <div class="header-container">
+        <div class="header conteiner">
             <img class="logoapoio" src="imagens/logoapoio.svg" alt="Logo da apoio solução" width="90" height="64">
 
             <nav aria-label="Primario">
-                <ul class="menu">
+                <ul class="menu font-2-s cor-f1">
                     <li><a href="#sobrenos">Sobre nós</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
@@ -31,24 +31,26 @@
 
 <!-- Secão 1: Introdução do site -->
 
-    <main class="introducao">
+    <main class="introducao conteiner">
 
-        <div>
-            <h1 class="texto-introducao">A 17 anos oferecendo <strong>apoio</strong><br> e <strong>solução</strong> para aposentados <br>e pensionistas do INSS</h1>
+        <div class="introducao-conteudo">
+            <h1 class="font-1-xl-l cor-f1">A 17 anos oferecendo <strong>apoio</strong><br> e <strong>solução</strong> para aposentados <br>e pensionistas do INSS</h1>
         </div>
 
-        <img class="img-introducao" src="imagens/apoiointroducao.jpg" alt="Entrada da apoio solução" width="496" height="556">
+        <div class="introducao-imagem">
+            <img src="imagens/apoiointroducao.jpg" alt="Entrada da apoio solução" width="496" height="556">
+        </div>
     </main>
 
 <!-- Seção 2: Sobre nós -->
 
-    <article class="sobrenos" id="sobrenos" aria-labelledby="label-sobrenos">
+    <article class="sobrenos-bg" id="sobrenos" aria-labelledby="label-sobrenos">
 
-        <div class="sobrenos-container">
+        <div class="sobrenos conteiner">
 
-            <div>
-                <h2 class="titulo-sobrenos" id="label-sobrenos">Nossa empresa<span>.</span></h2>
-                <ul class="lista-sobrenos">
+            <div class="sobrenos-conteudo">
+                <h2 class="font-1-xxl cor-f1" id="label-sobrenos">Nossa empresa<span class="cor-d1">.</span></h2>
+                <ul class="sobrenos-lista font-2-m cor-f2">
                     <li>Localizada no centro de Blumenau (SC)</li>
                     <li>Atendemos todo vale do itajaí e litoral</li>
                     <li>Credibilidade e Segurança</li>
@@ -64,28 +66,28 @@
 
 <!-- Seção 3: Porque fazer conosco -->
 
-    <section class="porquenos" aria-labelledby="porquenos">
+    <section class="porquenos conteiner" aria-labelledby="porquenos">
 
-        <h2 class="titulo-porquenos" id="porquenos">Porque fazer conosco<span>?</span></h2>
+        <h2 class="porquenos-titulo font-1-xxl cor-f1" id="porquenos">Porque fazer conosco<span class="cor-d1">?</span></h2>
 
-        <ul class="lista-vantagens">
-            <li class="item-vantagens item1">
-                <h3>Experiência e Segurança</h3>
+        <ul class="lista-vantagens cor-f2">
+            <li class="item1">
+                <h3 class="font-2-m-b">Experiência e Segurança</h3>
                 <p>Nossos 17 anos de experiência garantem aos nossos clientes, toda segurança e tranquilidade em seus empréstimos.</p>
             </li>
 
-            <li class="item-vantagens item2">
-                <h3>Melhores condições</h3>
+            <li class="item2">
+                <h3 class="font-2-m-b">Melhores condições</h3>
                 <p>Avaliamos sua necessidade e lhe ofeceremos as melhores opções do mercado.</p>
             </li>
 
-            <li class="item-vantagens item3">
-                <h3>Atendimento externo</h3>
+            <li class="item3">
+                <h3 class="font-2-m-b">Atendimento externo</h3>
                 <p>Não consegue vir até nós? Não tem problema, nós vamos até você!</p>
             </li>
 
-            <li class="item-vantagens item4">
-                <h3>Equipe Preparada</h3>
+            <li class="item4">
+                <h3 class="font-2-m-b">Equipe Preparada</h3>
                 <p>Contamos com uma equipe preparada para oferecer o melhor atendimento.</p>
             </li>
         </ul>
@@ -93,23 +95,25 @@
 
 <!-- Seção 4: Contato (Rodape) -->
 
-    <footer class="contato" id="contato" aria-label="Contato">
+    <footer class="contato-bg" id="contato" aria-label="Contato">
 
-        <div class="contato-container">
+        <div class="contato conteiner">
 
-            <div>
-                <h2 class="titulo-contato">Contato</h2>
+            <div class="contato-conteudo">
+                <h2 class="font-1-xxl cor-f1">Contato</h2>
+
                 <ul class="lista-contatos">
                     <li>
-                        <h3>Telefone</h3>
-                        <address>
+                        <h3 class="font-2-m-b cor-f1">Telefone</h3>
+                        <address class="font-2-m cor-f2">
                             <a href="tel:+554730358050">(47) 3035-8050</a>
                             <a class="whatsapp" href="https://api.whatsapp.com/send?phone=5547999914979">(47) 99991-4979 <img src="imagens/iconwhatsapp.svg" alt=""></a>
                         </address>
                     </li>
+
                     <li>
-                        <h3>Endereço</h3>
-                        <address>
+                        <h3 class="font-2-m-b cor-f1">Endereço</h3>
+                        <address class="font-2-m cor-f2">
                             <a href="https://goo.gl/maps/u2VLyBrXqB5o2AgB9">
                                 Rua XV de Novembro, 550 - Sala 601 <br>
                                 Edifício Catarinense, Blumenau <br>
@@ -121,10 +125,10 @@
             </div>
 
             <div>
-                <iframe class="mapa-contato" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.433956347409!2d-49.064692485438215!3d-26.921453900051965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df18eac7f13bef%3A0x5c5ef3f52a5ea942!2sCondom%C3%ADnio%20Edif%C3%ADcio%20Catarinense!5e0!3m2!1spt-BR!2sbr!4v1645451448753!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe class="contato-mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.433956347409!2d-49.064692485438215!3d-26.921453900051965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df18eac7f13bef%3A0x5c5ef3f52a5ea942!2sCondom%C3%ADnio%20Edif%C3%ADcio%20Catarinense!5e0!3m2!1spt-BR!2sbr!4v1645451448753!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
 
-            <p class="direitos-contato">Apoio Solução. Todos os direitos reservados</p>
+            <p class="contato-direitos font-2-s cor-f1">Apoio Solução. Todos os direitos reservados</p>
         </div>
     </footer>
 </body>

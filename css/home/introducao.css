@@ -1,38 +1,23 @@
 .introducao {
-    max-width: 1240px;
-    margin: 0px auto;
-    box-sizing: border-box;
-
     display: grid;
     grid-template-columns: auto 1fr;
-    padding: 0px 40px 100px 40px;
-    gap: 20px;
+    padding-bottom: 100px;
+    gap: 40px;
 }
 
-.texto-introducao {
-    font-family: Merriweather, Georgia, 'Times New Roman', serif;
-    font-size: 45px;
-    line-height: 1.2;
-    font-weight: 300;
-    color: var(--cor-fonte-titulo);
+.introducao-conteudo {
     padding-top: 100px;
-
-    position: relative;
 }
 
-.texto-introducao::after {
+.introducao-conteudo h1::after {
     content: "";
     width: 100px;
     height: 10px;
     background: var(--cor-primaria-detalhe);
 
     display: block;
-    position: absolute;
-    bottom: -15px;
-}
-
-.img-introducao {
-    justify-self: end;
+    position: relative;
+    bottom: -10px;
 }
 
 @media (max-width: 1024px) {
@@ -42,12 +27,11 @@
         gap: 30px;
     }
 
-    .texto-introducao {
-        font-size: 38px;
+    .introducao-conteudo {
         padding-top: 80px;
     }
 
-    .texto-introducao::after { 
+    .introducao-conteudo::after { 
         width: 80px;
         height: 8px;
     }
@@ -56,11 +40,10 @@
 @media (max-width: 768px) {
 
     .introducao {
-        padding: 0px 20px 40px 20px;
+        padding: 0px 20px 60px 20px;
     }
 
-    .texto-introducao {
-        font-size: 30px;
+    .introducao-conteudo {
         padding-top: 60px;
     }
 }
@@ -72,12 +55,11 @@
         padding: 40px 20px 180px 20px;
     }
 
-    .texto-introducao {
-        font-size: 26px;
+    .introducao-conteudo {
         padding-top: 0px;
     }
 
-    .img-introducao {
+    .introducao-imagem {
         display: none;
     }
 }

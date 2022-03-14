@@ -1,34 +1,30 @@
-.header {
-    background: var(--cor-secundaria-fundo);
+.header-bg {
+    background: var(--cor-b2);
 }
 
-.header-container {
-    max-width: 1240px;
-    margin: 0px auto;
-    box-sizing: border-box;
-
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .menu {
     display: flex;
-    gap: 50px;
+    gap: 40px;
 }
 
 .menu a {
     display: block;
-    padding: 10px 0px;
-    color: var(--cor-fonte-titulo);
+    padding: 20px 0px;
 }
 
 .menu a::after {
     content: "";
     width: 0;
     height: 2px;
-    background-color: var(--cor-fonte-texto);
+    background-color: var(--cor-f2);
     display: block;
 }
     
@@ -39,14 +35,14 @@
 
 @media (max-width: 1024px) {
 
-    .header-container {
+    .header {
         padding: 10px 20px;
     }
 }
 
 @media (max-width: 768px) {
 
-    .header-container {
+    .header {
         padding: 5px 20px;
     }
     
@@ -57,13 +53,9 @@
     .menu {
         gap: 40px;
     }
-
-    .menu a {
-        font-size: 14px;
-    }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 425px) {
 
     .logoapoio {
         width: 50px;
@@ -71,9 +63,5 @@
 
     .menu {
         gap: 30px;
-    }
-
-    .menu a {
-        font-size: 12px;
     }
 }

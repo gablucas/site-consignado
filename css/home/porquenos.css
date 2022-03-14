@@ -1,0 +1,113 @@
+.porquenos {
+    padding-top: 80px;
+    padding-bottom: 160px;
+}
+
+.porquenos-titulo {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.lista-vantagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.lista-vantagens li {
+    flex: 1;
+    padding: 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid var(--cor-d3);
+    background-color: var(--cor-b2);
+}
+
+.lista-vantagens li:hover {
+    box-shadow: 0px 0px 7px var(--cor-d3);
+    transition: .3s;
+}
+
+.lista-vantagens h3 {
+    padding-bottom: 20px;
+
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 10px;
+}
+
+.lista-vantagens h3::before {
+    content: "";
+    width: 50px;
+    height: 45px;
+    display: block;
+}
+
+.item1 h3::before {
+    background: url("../../imagens/iconexperienciaseguranca.svg") no-repeat center;
+}
+
+.item2 h3::before {
+    background: url("../../imagens/iconmelhorescondicoes.svg") no-repeat center;
+}
+
+.item3 h3::before {
+    background: url("../../imagens/iconatendimentoexterno.svg") no-repeat center;
+}
+
+.item4 h3::before {
+    background: url("../../imagens/iconequipepreparada.svg") no-repeat center;
+}
+
+
+@media (max-width: 1024px) {
+
+    .porquenos {
+        padding: 60px 20px;
+    }
+
+    .lista-vantagens {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .porquenos {
+        padding: 60px 20px 60px 20px;
+    }
+
+    .porquenos-titulo {
+        padding-bottom: 40px;
+    }
+
+    .lista-vantagens {
+        gap: 15px;
+    }
+
+}
+
+@media (max-width: 425px) {
+
+    .porquenos {
+        padding: 40px 20px 40px 20px;
+    }
+
+    .porquenos-titulo {
+        padding-bottom: 30px;
+    }
+
+    .lista-vantagens {
+        gap: 20px;
+    }
+
+    .lista-vantagens h3 {
+        max-width: initial;
+        padding-bottom: 10px;
+    }
+
+    .lista-vantagens h3::before {
+        transform: scale(.9);
+    }
+}

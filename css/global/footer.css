@@ -1,0 +1,130 @@
+.contato-bg {
+    background: var(--cor-b2);
+}
+
+.contato {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    row-gap: 80px;
+}
+
+.contato-conteudo h2 {
+    padding-bottom: 60px;
+
+    position: relative;
+}
+
+.contato-conteudo h2::after {
+    content: "";
+    width: 50px;
+    height: 10px;
+    background: var(--cor-d1);
+
+    display: block;
+    position: absolute;
+}
+
+.lista-contatos {
+    display: grid;
+    gap: 50px;
+}
+
+.lista-contatos h3 {
+    padding-bottom: 10px;
+}
+
+.lista-contatos a {
+    display: block;
+    width: max-content;
+    color: var(--cor-f2);
+}
+
+.lista-contatos a:hover {
+    color: var(--cor-d2);
+}
+
+.lista-contatos img {
+    display: inline-block;
+}
+
+.contato-mapa {
+    justify-self: end;
+}
+
+.contato-direitos {
+    grid-column: 1 / -1;
+    justify-self: center;
+}
+
+@media (max-width: 1024px) {
+
+    .contato {
+        row-gap: 60px;
+        padding: 60px 20px 20px 20px;
+    }
+
+    .contato-conteudo h2 {
+        padding-bottom: 40px;
+    }
+
+    .contato-conteudo h2::after {
+        width: 42px;
+        height: 8px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .contato {
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+        padding: 60px 20px 10px 20px;
+    }
+
+    .lista-contatos {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 150px;
+    }
+
+    .contato-mapa {
+        height: 300px;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .contato {
+        padding: 40px 20px 10px 20px;
+        gap: 40px;
+    }
+
+    .contato-conteudo h2 {
+        padding-bottom: 35px;
+    }
+
+    .contato-conteudo h2::after {
+        width: 35px;
+        height: 6px;
+    }
+
+    .lista-contatos {
+        display: initial;
+    }
+
+    .lista-contatos h3 {
+        padding-bottom: 5px;
+    }
+
+    .lista-contatos li + li {
+        padding-top: 30px;
+    }
+
+    .lista-contatos .whatsapp::after {
+        transform: scale(.9);
+    }
+
+}
+
