@@ -54,6 +54,8 @@
 }
 
 .lista-contatos a {
+    display: block;
+    width: max-content;
     color: var(--cor-fonte-texto);
 }
 
